@@ -7,21 +7,25 @@
  */
 public class Velero extends Barco
 {
+    private int numMastiles;
 
     /**
      * Constructor for objects of class Velero
      */
-    public Velero(String matricula, double eslora, int ano, Persona propietario)
+    public Velero(String matricula, double eslora, int ano, Persona propietario, int numMastiles)
     {
         super(matricula, eslora, ano, propietario);
+        this.numMastiles=numMastiles;
 
     }
     
     public String toString(){
-        return"";
+        String cadena="";
+        cadena+=super.toString()+"con "+numMastiles+" mastiles."+"/n";
+        return cadena;
     }
     
     public int getCoeficienteBernua(){
-        return 0;
+        return numMastiles;
     }
 }

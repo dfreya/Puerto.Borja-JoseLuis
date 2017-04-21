@@ -7,21 +7,23 @@
  */
 public class Yate extends EmbarcacionAMotor
 {
-
+    private int numCamarotes;
     /**
      * Constructor for objects of class Yate
      */
     public Yate(String matricula, double eslora, int ano, Persona propietario, int potencia,int numCamarotes)
     {
         super( matricula, eslora, ano, propietario, potencia);
-
+        this.numCamarotes=numCamarotes;
     }
 
         public int getCoeficienteBernua(){
-        return 0;
+        return numCamarotes+super.getCoeficienteBernua();
     }
     
        public String toString(){
-        return"";
+        String cadena="";
+        cadena+=super.toString()+"Con "+numCamarotes+" camarotes"+"/n";
+        return cadena;
     }
     }
