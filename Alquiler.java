@@ -19,13 +19,18 @@ public class Alquiler
     public String toString()
     {
         String textoADevolver = "";
-        
+        textoADevolver += diasOcupacion + "\n";
+        textoADevolver += posicionAmarre + "\n";
+        textoADevolver += barco.toString();
         return textoADevolver;
     }
     
     public float getPrecioAlquiler()
     {
-        return 0.0;
+        float precio = 0;
+        float eslora = (float)barco.getEslora();
+        precio = (diasOcupacion * (eslora * VALOR_MULTIPLICADOR_ESLORA)) + (VALOR_MULTIPLICADOR_BERNUA * barco.getCoeficienteBernua());
+        return precio;
     }
     
 }
