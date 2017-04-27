@@ -21,7 +21,7 @@ public class Velero extends Barco
     
     public String toString(){
         String cadena="";
-        cadena+=super.toString()+"con "+numMastiles+" mastiles."+"/n";
+        cadena+=super.toString()+"con "+numMastiles+" mastiles."+"\n";
         return cadena;
     }
     

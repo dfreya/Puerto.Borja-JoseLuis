@@ -23,7 +23,7 @@ public class Yate extends EmbarcacionAMotor
     
        public String toString(){
         String cadena="";
-        cadena+=super.toString()+"Con "+numCamarotes+" camarotes"+"/n";
+        cadena+=super.toString()+"Con "+numCamarotes+" camarotes"+"\n";
         return cadena;
     }
     }

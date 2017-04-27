@@ -24,9 +24,9 @@ public abstract class Barco
 
     public String toString(){
         String cadena=propietario.toString();
-        cadena+= "Con matricula "+matricula+"/n";
-        cadena+="Año de Fabrocacion "+anoFabricacion+"/n";
-        cadena+="Con una eslora de "+eslora+"/n"; 
+        cadena+= "Con matricula "+matricula+"\n";
+        cadena+="Año de Fabrocacion "+anoFabricacion+"\n";
+        cadena+="Con una eslora de "+eslora+"\n"; 
         return cadena;
     }
 

@@ -9,19 +9,19 @@ public class Persona
 {
     // instance variables - replace the example below with your own
     private String nombre;
-    private int dni;
+    private String dni;
 
     /**
      * Constructor for objects of class Persona
      */
-    public Persona(String nombre, int dni)
+    public Persona(String nombre, String dni)
     {
         this.nombre=nombre;
         this.dni=dni;
     }
 
     public String toString(){
-        String cadena= nombre+" "+dni;
+        String cadena= nombre+" "+dni+"\n";
         return cadena;
     }
 }
