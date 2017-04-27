@@ -19,8 +19,8 @@ public class Alquiler
     public String toString()
     {
         String textoADevolver = "";
-        textoADevolver += diasOcupacion + "\n";
-        textoADevolver += posicionAmarre + "\n";
+        textoADevolver += "Alquilado " + diasOcupacion + " dias\n";
+        textoADevolver += "Amarre" + posicionAmarre + "\n";
         textoADevolver += barco.toString();
         return textoADevolver;
     }

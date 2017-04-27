@@ -34,7 +34,10 @@ public class Puerto
     {
         for (int i = 0; i < amarres.length; i++){
             if (amarres[i] != null){
-                System.out.println(amarres[i].toString());
+                System.out.println(amarres[i].toString() + "\n");
+            }
+            else{
+                System.out.println("El amarre " + i + " esta libre\n");
             }
         }
     }
