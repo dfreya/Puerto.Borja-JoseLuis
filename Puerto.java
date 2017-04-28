@@ -1,7 +1,7 @@
 /**
- * Clase principal desde la que se ejecuta todo el programa. Permitirá gestionar los 
+ * Clase principal desde la que se ejecuta todo el programa. Permitira gestionar los 
  * alquileres de los amarres de un puerto.
- * @author Jose Luis Fernández Cañón
+ * @author Jose Luis Fernandez Ca�on.
  * @version 27/04/2017.
  */
 public class Puerto
@@ -19,9 +19,9 @@ public class Puerto
     
     /**
      * Comprueba si hay amarres libres y alquila el primer amarre libre y devuelve el precio de alquiler, 
-     * en caso de no haber ningun amarre libre devolverá -1.
+     * en caso de no haber ningun amarre libre devolvera -1.
      * @param numDias Numero de dias que se alquila el amarre.
-     * @param barco Barco que ocupará el amarre.
+     * @param barco Barco que ocupara el amarre.
      * @return Precio del alquiler del amarre.
      */
     public float alquilarAmarre(int numDias, Barco barco)
@@ -66,8 +66,8 @@ public class Puerto
     }
     
     /**
-     * Busca la posición del primer amarre libre, si no hay ningun amarre libre devuelve -1.
-     * @return Posición primer amarre libre.
+     * Busca la posicion del primer amarre libre, si no hay ningun amarre libre devuelve -1.
+     * @return Posicion primer amarre libre.
      */
     public int posicionPrimerAmarreLibre()
     {

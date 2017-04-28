@@ -1,7 +1,7 @@
 
 /**
  * Clase que almacena todos los datos del alquiler de un amarre.
- * @author Jose Luis Fernández Cañón
+ * @author Jose Luis Fernandez Ca�on.
  * @version 27/04/2017.
  */
 public class Alquiler
@@ -15,9 +15,9 @@ public class Alquiler
     private static final int VALOR_MULTIPLICADOR_BERNUA = 300;
     
     /**
-     * Constructor que inicializa los atributos pasandole datos por parámetro.
-     * @param numDias Numero de días que durará el alquiler.
-     * @param barco Barco que aluila el amarre.
+     * Constructor que inicializa los atributos pasandole datos por parametro.
+     * @param numDias Numero de dias que durara el alquiler.
+     * @param barco Barco que alquila el amarre.
      * @param posicionAmarre Posicion del amarre alquilado.
      */
     public Alquiler(int numDias, Barco barco, int posicionAmarre)
@@ -28,7 +28,7 @@ public class Alquiler
     }
     
     /**
-     * Muestra toda la información del alquiler.
+     * Muestra toda la informacion del alquiler.
      * @return Cadena con la informacion del alquiler.
      */
     public String toString()
